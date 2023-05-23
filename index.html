@@ -14,22 +14,22 @@
     <nav class="navbar">
         <h3 class="nav-title">DevSumitG</h3>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
+            <li><a href="#introduction">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#projects-section">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <main class="container">
-        <section id="about">
+    <main>
+        <section id="introduction" class="container">
             <div class="intro">
                 <div class="detail">
                     <h1 class="detail-heading m-20">
-                        Hi, I'm Sumit Girwal 👋🏼
+                        Hi, I'm Sumit Girwal 👋🏼 
                     </h1>
                     <p class="detail-subheading m-20">
-                        A passionate Back-end Python Developer <br> 
+                        A passionate Back-end Python Developer <br>
                     </p>
                     <p class="deatil-loc">
                         Indore, Madhya Pradesh, India. 📍
@@ -47,21 +47,136 @@
                         <a href="">
                             <i class="bi bi-globe"></i>
                         </a>
-                       
+
                         <a href="">
-                            <i class="bi bi-medium"></i>
+                            <img src="assets/images/medium.svg" alt="">
                         </a>
                         <a href="">
                             <i class="bi bi-box-arrow-up-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="avatar">
-                    <img src="./assets/images/avatar.png" alt="Sumit Girwal 
-                    Avatar">
+                <div class="hero-img"></div>
+            </div>
+            <div class="skills">
+                <p>Tech Stack | </p>
+                <img src="./assets/images/html.svg" alt="Skill Image">
+                <img src="./assets/images/css.svg" alt="Skill Image">
+                <img src="./assets/images/js.svg" alt="Skill Image">
+                <img src="./assets/images/bootstrap.svg" alt="Skill Image">
+                <img src="./assets/images/python.svg" alt="Skill Image">
+                <img src="./assets/images/django.svg" alt="Skill Image">
+                <img src="./assets/images/react.svg" alt="Skill Image">
+                <img src="./assets/images/redis.svg" alt="Skill Image">
+                <img src="./assets/images/docker.svg" alt="Skill Image">
+            </div>
+        </section>
+
+        <section id="about-section">
+            <div class="container">
+                <div class="about">
+                    <div class="about-img">
+                        <img src="./assets/images/avatar.png" alt="About Image">
+                    </div>
+                    <div class="about-detail">
+                        <a href="#about">About Me</a>
+                        <div class="about-title">
+                            A dedicated Backend Developer
+                        </div>
+                        <p class="about-subtitle">
+                            I am a Backend Developer with 1.8 years of experience in Python Django and Django Rest API
+                            web development. My skill set includes expertise in Python, Django, and Django Rest
+                            Framework for creating robust server-side applications.
+                        </p>
+                        <p class="about-subtitle">
+                            I have a solid understanding of HTML, CSS, and JavaScript, which allows me to collaborate
+                            effectively with front-end developers in delivering seamless user experiences. I am also
+                            familiar with modern front-end frameworks like React.js and proficient in using Bootstrap
+                            for creating visually appealing interfaces.
+                        </p>
+                        <p class="about-subtitle">
+                            My focus is on crafting efficient and maintainable code to ensure optimal performance and
+                            scalability. I have experience in working with databases, implementing data models, and
+                            utilizing Django's built-in ORM tools.
+                        </p>
+                        <p class="about-subtitle">
+                            I am well-versed in leveraging cutting-edge development tools and techniques to enhance
+                            productivity and streamline the development process. Collaboration with cross-functional
+                            teams is a strength of mine, as I recognize the importance of teamwork in delivering
+                            exceptional web applications. Additionally, I have experience with Flask and FastAPI in
+                            Python, as well as C++ for backend development.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="skills"></div>
+        </section>
+
+
+        <!--  <section id="projects-section">
+            <div class="container">
+                <div class="project-title">PROJECTS</div>
+                <div class="card">
+                    <div class="col-3">
+                        <img src="assets/images/ss1.webp" alt="">
+                    </div>
+                    <div class="col-7">
+                        <div class="card-heading">CAR RENTAL 🚗</div>
+                        <div class="card-description">A car rental website is an online platform that allows users to
+                            rent cars for personal or business use. The website provides an interface for searching,
+                            comparing, and reserving cars.</div>
+                        <div class="card-skills">
+                            <button>React</button>
+                            <button>SCSS</button>
+                        </div>
+                        <div class="card-btn">
+                            <a href="http://127.0.0.1:5500/index.html#about">
+                                Github
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="http://127.0.0.1:5500/index.html#about">Live Demo <i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div> 
+
+                
+            </div>
+        </section>
+        -->
+
+        <section class="project-section">
+            <div class="container">
+                <div class="project">
+                    <div class="project-title">Projects</div>
+                    <div class="project-subtitle">Each project is a unique piece of development 🧩</div>
+                    <div class="card">
+                        <div class="col-1">
+                            <img src="assets/images/avatar.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <div class="card-title">
+                                CAR RENTAL 🚗
+                            </div>
+                            <div class="card-content">
+                                A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.
+                            </div>
+                            <div class="card-tech">
+                                <button>React</button>
+                                <button>Python</button>
+                            </div>
+                            <div class="card-link" >
+                                <a href="https://github.com/sumitgirwal" target="_blank">
+                                    Github 
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com/sumitgirwal" target="_blank">
+                                    Live Demo
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
