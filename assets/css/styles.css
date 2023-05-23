@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary : #2d2e32;
+    --secondary: #767676;
+    --white: #ffffff;
+    --bg: #f9f9f9;
+    --hover: #147efb;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--primary);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid rgb(228, 224, 224);
+    padding: 5px 25px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 20%;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hover);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0655af;
+}
+
+.nav-title {
+    font-size: 28px;
+}
+
+.container {
+    max-width: 1020px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.intro {
+    display: flex;
+    
+}
+
+.m-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.detail {
+    margin-right: 10px;
+}
+
+.detail-heading {
+    font-size: 45px;
+}
+.detail-subheading {
+    font-size: 25px;
+}
+
+.deatil-loc {
+    font-size: 25px;
+   color: #4d4a4a;
+}
+
+.detail-social {
+    font-size: 30px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-social a {
+    color: #2d2e32;
+    transition: color 0.3s ease;
+}
+
+.detail-social a:hover {
+    color: #9f9c9c;
+}
+
+.avatar {
+    margin-left: 80px;
+}
+ 
+
+.avatar img {
+    border-radius: 200px;
+    object-fit: center;
+    object-position: center;
+    width: 300px; 
+
+}
