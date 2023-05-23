@@ -1,2 +1,2 @@
-# website
+# DevSumitG
 Personal Website
