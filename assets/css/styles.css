@@ -427,6 +427,13 @@ a:hover {
     color: var(--hover);
     
  }
+
+ .contact-item .left a {
+    width: 25%;
+    font-size: 60px;
+    color: var(--hover);
+    
+ }
  
  .contact-item .right {
     width: 75%;
