@@ -119,7 +119,7 @@ a:hover {
 .hero-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url(/assets/images/avatar.png);
+  background-image: url(https://sumitgirwal.github.io/devsumitg/assets/images/avatar.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -584,7 +584,6 @@ footer {
     margin: auto;
   }
 
- 
   .about-title {
     font-size: 16px;
   }
@@ -629,7 +628,6 @@ footer {
   }
 
   .contact-item {
-   
     margin-left: -4px;
   }
 
@@ -655,7 +653,6 @@ footer {
   }
 
   .about-detail {
-    
     margin-top: 34px;
-}
+  }
 }
