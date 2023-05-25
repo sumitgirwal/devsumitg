@@ -1,11 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+ 
 :root {
-  --primary: #2d2e32;
-  --secondary: #767676;
+  --mainColor: #2d2e32;
+  --secondaryColor: #767676;
   --white: #ffffff;
   --bg: #f9f9f9;
   --hover: #147efb;
+  --borderColor: gray;
+}
+
+
+:root {
+   
+
+   
+
+  --mainText: #343232;
+  --secondaryText: #eeeeee;
+
+  --themeDotBorder: #fff;
+
+  --previewBg: rgb(25, 39, 52, 0.8);
+  --previewShadow: #111921;
+
+  --hover: #17a2b8;
 }
 
 * {
@@ -17,7 +37,62 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
-  color: var(--primary);
+  color: var(--mainColor);
+  transition: 0.3s;
+  scroll-behavior: smooth;
+  border-bottom:1px solid var(--borderColor);
+}
+
+
+#theme-options-wrapper{
+	display: flex;
+}
+
+#light-mode{
+	background-color: #fff;
+}
+
+#blue-mode{
+	background-color: #192734;
+}
+
+#green-mode{
+	background-color: #78866b;
+}
+
+#purple-mode{
+	background-color: #7E4C74;
+}
+
+#settings-note{
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+.theme-dot{
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 5px;
+	border:2px solid var(--themeDotBorder);
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+
+
+.theme-dot:hover{
+	border-width: 5px;
+}
+
+
+.left-column{
+	grid-area: left-column;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 .navbar {
@@ -25,27 +100,55 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--white);
-  border: 1px solid rgb(228, 224, 224);
   padding: 5px 25px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  animation: nav-load 0.3s ease;
 }
 
-ul {
+@keyframes nav-load {
+
+  0% {
+    transform: translateY(-100%);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.nav-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10px;
   margin: 10px;
   width: 20%;
+
+  animation: nav-link-load 300ms ease;
 }
 
-ul li {
+@keyframes nav-link-load {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--mainColor);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -59,14 +162,32 @@ a:hover {
 }
 
 .container {
-  max-width: 1020px;
+  width: 1200px;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  overflow:auto;
 }
 
 .intro {
   display: flex;
+  animation: intro-load 400ms ease 10ms;
+}
+
+
+@keyframes intro-load {
+  0% {
+    transform: scale(0);
+
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .m-20 {
@@ -165,6 +286,21 @@ a:hover {
   justify-content: space-between;
   font-size: 20px;
   margin-top: 40px;
+  animation: skills-load 800ms ease;
+}
+
+@keyframes skills-load {
+  0% {
+    transform: translateX(-500px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .skills img {
@@ -276,7 +412,7 @@ a:hover {
 .card-content {
   font-size: 16px;
   font-weight: 400;
-  color: var(--secondary);
+  color: var(--secondaryColor);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -305,7 +441,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--primary);
+  color: var(mainColor);
   font-size: 20px;
 }
 
@@ -448,11 +584,11 @@ a:hover {
 
 .right-subtitle {
   font-size: 16px;
-  color: var(--secondary);
+  color: var(--secondaryColor);
 }
 
 footer {
-  background-color: var(--primary);
+  background-color: var(mainColor);
   color: var(--white);
   margin-bottom: -5%;
 }

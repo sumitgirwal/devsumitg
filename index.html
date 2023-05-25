@@ -10,6 +10,7 @@
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -17,11 +18,12 @@
         <a href="https://medium.com/@devsumitg" target="_blank">
             <h3 class="nav-title">DevSumitG <i class="fa-brands fa-medium"></i></h3>
         </a>
-        <ul>
-            <li><a href="#introduction">Home</a></li>
+        <ul class="nav-item">
+            <li class="nav-item-link"><a href="#introduction">Home</a></li>
             <li><a href="#about-section">About</a></li>
             <li><a href="#project-section">Projects</a></li>
             <li><a href="#contact-section">Contact</a></li>
+            
         </ul>
     </nav>
 
@@ -51,7 +53,17 @@
                         <a href="https://twitter.com/DevSumitG" target="_blank">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-
+                        
+                    </div>
+                    <div class="my-theme">
+                        <h5>Personalize Theme</h5>
+                        <p id="settings-note">*Theme settings will be saved for your next vist</p>
+                        <div id="theme-options-wrapper">
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="hero-img"></div>
@@ -547,6 +559,9 @@
             </div>
         </footer>
     </main>
+
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 
 </html>
