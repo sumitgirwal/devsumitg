@@ -123,7 +123,7 @@ body {
   align-items: center;
   padding: 10px 10px;
   margin: 10px;
-  width: 20%;
+  width: 22%;
 
   animation: nav-link-load 300ms ease;
 }
@@ -162,11 +162,11 @@ a:hover {
 }
 
 .container {
-  width: 1200px;
+  width: 1140px;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  overflow:auto;
+  overflow: auto;
 }
 
 .intro {
@@ -196,13 +196,14 @@ a:hover {
 }
 .detail {
   margin-right: 10px;
+  width: 70%;
 }
 
 .detail-heading {
-  font-size: 45px;
+  font-size: 56px;
 }
 .detail-subheading {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .deatil-loc {
@@ -211,10 +212,11 @@ a:hover {
 }
 
 .detail-social {
-  font-size: 30px;
-  width: 200px;
+  font-size: 40px;
+  width: 35%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .detail-social a {
@@ -240,7 +242,7 @@ a:hover {
 .hero-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url(https://sumitgirwal.github.io/devsumitg/assets/images/avatar.png);
+  background-image: url('../images/avatar.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -588,7 +590,7 @@ a:hover {
 }
 
 footer {
-  background-color: var(mainColor);
+  background-color: var(--white);
   color: var(--white);
   margin-bottom: -5%;
 }
@@ -622,173 +624,7 @@ footer {
   color: var(--hover) !important;
 }
 
-/* Resonsive */
-@media only screen and (max-width: 800px) {
-  /* For tablets: */
-  ul {
-    width: 46%;
-  }
-
-  .intro {
-    padding: 20px;
-  }
-
-  .detail-heading {
-    font-size: 28px;
-  }
-  .detail-subheading {
-    font-size: 20px;
-  }
-  .deatil-loc {
-    font-size: 20px;
-  }
-
-  .hero-img {
-    width: 14rem;
-    height: unset;
-  }
-
-  .skills {
-    display: block;
-    align-items: center;
-    justify-content: space;
-    font-size: 20px;
-    margin-top: 40px;
-    padding: 10px 36px;
-  }
-
-  .about {
-    padding: 20px;
-  }
-
-  .project {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .contact {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .contact-info {
-    display: block;
-    align-items: center;
-    margin: auto;
-  }
-
-  .contact-item {
-    margin: auto;
-  }
-  .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  .nav-title {
-    font-size: 18px;
-  }
-  ul {
-    width: 65%;
-  }
-
-  .intro {
-    padding: 20px;
-  }
-
-  .detail-heading {
-    font-size: 16px;
-  }
-  .detail-subheading {
-    font-size: 10px;
-  }
-  .deatil-loc {
-    font-size: 10px;
-  }
-
-  .hero-img {
-    width: 10rem;
-    height: unset;
-  }
-
-  .about {
-    text-align: center;
-    display: block;
-    margin: auto;
-  }
-
-  .about-title {
-    font-size: 16px;
-  }
-
-  .about-subtitle {
-    font-size: 14px;
-  }
-
-  .skills {
-    display: block;
-    align-items: center;
-    justify-content: space;
-    font-size: 20px;
-    margin-top: 40px;
-    padding: 10px 36px;
-  }
-
-  .about {
-    padding: 20px;
-  }
-
-  .project {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .card {
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .col-1 {
-    width: 100%;
-    margin: auto;
-  }
-  .col-2 {
-    width: 100%;
-    margin: auto;
-  }
-
-  .contact-item {
-    margin-left: -4px;
-  }
-
-  .contact {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .contact-info {
-    display: block;
-    align-items: center;
-    margin: auto;
-  }
-  .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: block;
-    text-align: center;
-    margin: auto;
-  }
-  .footer .right {
-    margin: auto;
-  }
-
-  .about-detail {
-    margin-top: 34px;
-  }
+.icon i {
+  font-size: 25px;
+  margin-top: 9px;
 }

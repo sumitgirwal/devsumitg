@@ -16,3 +16,35 @@
     
   --hover: #17a2b8;
 }
+
+.project-subtitle {
+  color: var(--secondaryText);
+}
+
+.card-tech button {
+  color: var(--hover);
+}
+
+.card {
+  box-shadow: 10px 10px 10px 10px rgba(79, 233, 189, 0.1);
+  
+}
+
+
+.contact-subtitle {
+ color: var(--secondaryText);
+}
+
+footer {
+ 
+  color: var(--secondaryText);
+  
+}
+
+.footer .right a {
+  color: var(--secondaryText) !important;
+}
+
+.detail-social a {
+  color: var(--secondaryText);
+}
