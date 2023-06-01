@@ -1,0 +1,136 @@
+@media screen and (max-width: 991px) {
+
+  .navbar {
+    overflow: initial;
+  }
+
+  .nav-item {
+    width: 44%;
+  }
+
+  .detail {
+    padding: 20px;
+    width: 52%;
+  }
+  .detail-heading {
+    font-size: 36px;
+  }
+
+  .detail-subheading {
+    font-size: 22px;
+  }
+
+  .deatil-loc {
+    font-size: 21px;
+  }
+  .detail-social {
+    width: 47%;
+  }
+
+  .hero-img {
+    padding: 20px;
+  }
+
+  .skills {
+    padding: 20px;
+    display: block;
+  }
+
+  .about {
+    padding: 20px;
+  }
+
+  .about-detail {
+    margin-left: 3%;
+    width: 80%;
+  }
+
+  .project {
+    padding: 20px;
+    padding-right: 45px;
+  }
+
+  .contact {
+    padding: 20px;
+    padding-right: 45px;
+  }
+  .footer {
+    padding: 20px;
+    padding-right: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .navbar {
+    overflow: initial;
+  }
+
+  .nav-item {
+    width: 55%;
+  }
+
+  .detail {
+    padding: 20px;
+    width: 62%;
+  }
+  .detail-heading {
+    font-size: 26px;
+  }
+
+  .detail-subheading {
+    font-size: 12px;
+  }
+
+  .deatil-loc {
+    font-size: 11px;
+  }
+  .detail-social {
+    width: 57%;
+
+    font-size: 32px;
+  }
+
+  .hero-img {
+    padding: 20px;
+    height: 14rem;
+    width: 11rem;
+  }
+
+  .skills {
+    padding: 20px;
+    display: block;
+  }
+
+  .about {
+    padding: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 50%;
+    margin: auto;
+  }
+
+  .about-detail {
+    margin-left: 3%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .project {
+    padding: 20px;
+    padding-right: 45px;
+  }
+
+  .contact {
+    padding: 20px;
+    padding-right: 45px;
+  }
+  .footer {
+    padding: 20px;
+    padding-right: 45px;
+  }
+}

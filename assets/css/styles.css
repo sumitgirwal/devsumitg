@@ -162,11 +162,12 @@ a:hover {
 }
 
 .container {
-  width: 1140px;
-  margin: auto;
+  max-width: 1180px;
+  margin-inline: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  overflow: auto;
+  padding-inline: var(--padding-inline-section);
+  overflow: hidden;
 }
 
 .intro {
@@ -591,7 +592,7 @@ a:hover {
 
 footer {
   background-color: var(--white);
-  color: var(--white);
+  color: var(--previewShadow);
   margin-bottom: -5%;
 }
 
@@ -617,7 +618,7 @@ footer {
 }
 
 .footer .right a {
-  color: var(--white) !important;
+  color: var(--previewShadow);
 }
 
 .footer .right a:hover {
