@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="./assets/css/media-queries.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link id="theme-style" rel="stylesheet" type="text/css" href="">
-    <link rel="stylesheet" href="./assets/css/media-queries.css">
+    
+    
 </head>
 
 <body>
@@ -25,9 +27,27 @@
             <li class="nav-item-link"><a href="#about-section">About</a></li>
             <li class="nav-item-link"><a href="#project-section">Projects</a></li>
             <li class="nav-item-link"><a href="#contact-section">Contact</a></li>
-            
+
         </ul>
+        <div class="nav-hum">
+            <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
+        </div>
     </nav>
+
+    <div id="navHum" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="">
+            <li class="nav-item-link"><a href="#introduction">Home</a></li>
+            <li class="nav-item-link"><a href="#about-section">About</a></li>
+            <li class="nav-item-link"><a href="#project-section">Projects</a></li>
+            <li class="nav-item-link"><a href="#contact-section">Contact</a></li>
+
+        </ul>
+      </div>
+
+    <div class="nav-block" id="navblock">
+
+    </div>
 
     <main>
         <section id="introduction" class="container">
@@ -55,7 +75,7 @@
                         <a href="https://twitter.com/DevSumitG" target="_blank">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-                        
+
                     </div>
                     <div class="my-theme">
                         <h5>Personalize Theme</h5>

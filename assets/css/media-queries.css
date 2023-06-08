@@ -1,5 +1,4 @@
-@media screen and (max-width: 991px) {
-
+@media (min-width: 1024px) {
   .navbar {
     overflow: initial;
   }
@@ -60,7 +59,11 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (min-width: 768px) {
+  .intro {
+    width: 100%;
+    padding: 20px;
+  }
 
   .navbar {
     overflow: initial;
@@ -72,18 +75,19 @@
 
   .detail {
     padding: 20px;
-    width: 62%;
+    width: 70%;
   }
+
   .detail-heading {
-    font-size: 26px;
+    font-size: 31px;
   }
 
   .detail-subheading {
-    font-size: 12px;
+    font-size: 17px;
   }
 
   .deatil-loc {
-    font-size: 11px;
+    font-size: 19px;
   }
   .detail-social {
     width: 57%;
@@ -93,8 +97,8 @@
 
   .hero-img {
     padding: 20px;
-    height: 14rem;
-    width: 11rem;
+    height: 400px;
+    width: 400px;
   }
 
   .skills {
@@ -133,4 +137,202 @@
     padding: 20px;
     padding-right: 45px;
   }
+}
+
+@media (min-width: 640px) {
+  .hero-img {
+    padding: 20px;
+    height: 270px;
+    width: 250px;
+  }
+
+  .navbar {
+    overflow: initial;
+  }
+
+  .nav-item {
+    width: 55%;
+  }
+
+  .detail {
+    padding: 20px;
+    width: 70%;
+  }
+
+  .detail-heading {
+    font-size: 28px;
+  }
+
+  .detail-subheading {
+    font-size: 10px;
+  }
+
+  .deatil-loc {
+    font-size: 19px;
+  }
+  .detail-social {
+    width: 57%;
+
+    font-size: 32px;
+  }
+
+  .hero-img {
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+  }
+
+  .skills {
+    padding: 20px;
+    display: block;
+  }
+
+  .about {
+    padding: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 50%;
+    margin: auto;
+  }
+
+  .about-detail {
+    margin-left: 3%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .project {
+    padding: 20px;
+    padding-right: 45px;
+  }
+
+  .contact {
+    padding: 20px;
+    padding-right: 45px;
+  }
+  .footer {
+    padding: 20px;
+    padding-right: 45px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* your CSS here */
+  .intro {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .detail {
+    margin-right: 10px;
+    width: 100%;
+  }
+    .detail-social {
+    font-size: 35px;
+
+    }
+
+  .detail-heading {
+    font-size: 26px;
+  }
+
+  .detail-social {
+      font-size: 35px;
+      display: flex;
+      gap: 35px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+
+  .detail-subheading {
+    font-size: 16px;
+}
+
+
+.deatil-loc {
+  font-size: 16px;
+}
+
+.hero-img {
+    margin-top: 30px;
+  }
+
+
+  #theme-options-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .nav-item {
+      display: none;
+    }
+
+    .nav-hum {
+      display: block;
+
+    }
+
+    .nav-hum i {
+      font-size: 30px;      
+    }
+
+    .navbar {
+      height: 80px;
+      
+    }
+
+    .skills {
+      display: block;
+      text-align: center;
+    }
+
+    .about {
+      display: block;
+      text-align: center;
+    }
+
+    .about-img {
+      padding: 20px;
+    }
+
+    .about-title {
+      width: 100%;
+    }
+
+
+    .hero-img {
+        display: none;
+    }
+
+    .project {
+      display: block;
+      text-align: center;
+    }
+
+    .card {
+      padding: 20px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+    }
+
+    .col-1 {
+      width: 100%;
+    }
+
+    .col-2 {
+      width: 100%;
+    }
+
+    .col-1 img {
+      width: 100%;
+      height: 100%;
+    }
 }

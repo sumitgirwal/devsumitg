@@ -56,3 +56,23 @@ function setTheme(mode) {
 
 //   // document.getElementById('dark-mode').setAttribute('data-mode', 'light');
 // }
+
+
+function navHum(){
+  var navBlock = document.getElementById('navblock').style.display;
+  if (navBlock === 'block'){
+    document.getElementById('navblock').style.display = 'none';
+  }else {
+    document.getElementById('navblock').style.display = 'block';
+  }
+
+
+}
+
+function openNav() {
+  document.getElementById("navHum").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("navHum").style.width = "0";
+}
