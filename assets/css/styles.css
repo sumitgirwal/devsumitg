@@ -257,6 +257,7 @@ a:hover {
   position: relative;
   transition: all 1s ease-in-out;
   width: 25rem;
+  z-index: -1;
 }
 
 @-webkit-keyframes morph {
